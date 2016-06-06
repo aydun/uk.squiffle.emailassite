@@ -2,8 +2,10 @@
 <extension key="uk.squiffle.emailassite" type="module">
   <file>emailassite</file>
   <name>Send email using the default site address</name>
-  <description>When sending a mail to a contact from the contact summary page using the 'send email' action, this extension will force the sender address to be the default site address.
-  This is useful where the site does not want to expose individual email addresses to clients.</description>
+  <description>When using the 'send email' action, this extension will
+  force the sender address to be the default site address.  This is
+  useful where the site does not want to expose individual email addresses
+  to clients.</description>
   <license>AGPL-3.0</license>
   <maintainer>
     <author>Aidan Saunders</author>
