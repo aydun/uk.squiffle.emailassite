@@ -4,4 +4,4 @@
 (function ($) {
   $('#fromEmailAddress').find('option:not(:last-child)').remove();
   $('#fromEmailAddress').select2();
-})(CRM.$, cj);
+})(CRM.$ || cj);
